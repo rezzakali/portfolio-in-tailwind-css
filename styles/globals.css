@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply dark:bg-[#0e1628] text-[#78869a];
+    @apply min-h-screen;
+  }
+  li {
+    @apply px-4 hover:bg-[#1f2937] hover:text-white py-1 my-2 mx-2;
+  }
+}
